@@ -2,7 +2,7 @@
 /*
 Plugin Name:    Context User Base Changer
 Description:    Customise URL base of author archive indexes.
-Text-Domain:    cwp-user-base
+Text-Domain:    cxt-user-base
 Version:        1.1
 Author:         Robert Andrews
 Author URI:     http://www.robertandrews.co.uk
