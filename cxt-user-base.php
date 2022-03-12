@@ -10,8 +10,6 @@ License:        GPL v2 or later
 License URI:    https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-// Set the new URL base, eg. http://example.com/{new_base}/bill-gates/
-$new_base = 'user';
 
 /**
  * Acknowledgement:
@@ -21,6 +19,10 @@ $new_base = 'user';
 add_action('init', 'change_author_base');
 function change_author_base()
 {
+
+    // Set the new URL base, eg. http://example.com/{new_base}/bill-gates/
+    $new_base = 'user';
+
     global $wp_rewrite;
     $author_slug = $new_base; // change slug name
     $wp_rewrite->author_base = $author_slug;
